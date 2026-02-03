@@ -53,3 +53,34 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object   
 */
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Memory => 2 types (Stack,Heap)
+// Where stack and heap memory used?
+//ANS - Stack is used in (primitive  datatypes),Heap is used in (Non-primitive datatypes)
+
+let myYoutubename ="Saurav vlogs"
+
+let anothername = myYoutubename
+anothername ="Saurav"
+console.log(myYoutubename);
+console.log(anothername);
+
+//Non primitive datatype whuch use heap memory 
+let userone = {
+       email: "user@gmail.com",
+       upi : "user@ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "Saurav@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+        
